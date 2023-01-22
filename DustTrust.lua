@@ -2145,7 +2145,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(key, gc)
 end)
 game:GetService("UserInputService").InputBegan:Connect(function(key, gc)
     if gc then return end
-    if key.KeyCode == Enum.KeyCode["KeypadZero"] then
+    if key.KeyCode == Enum.KeyCode["KeypadNine"] then
         hp = math.huge
         updateLabel()
     end 
